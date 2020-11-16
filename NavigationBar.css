@@ -1,0 +1,33 @@
+h1{
+  color: red;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00FFCC;
+}
+
+nav li {
+  display: inline;
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #808080;
+}
+
+nav li a:active {
+  background-color: #660033;
+}
