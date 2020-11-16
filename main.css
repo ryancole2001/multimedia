@@ -31,3 +31,12 @@ nav li a:hover {
 nav li a:active {
   background-color: #660033;
 }
+
+.dark-mode{
+  background: black;
+  color: white;
+}
+
+footer{
+  margin-top: 2em;
+}
