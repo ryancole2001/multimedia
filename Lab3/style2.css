@@ -1,0 +1,99 @@
+#wrap {
+
+width:750px;
+
+margin:0 auto;
+
+background:#FFFFCC;
+
+
+}
+
+#header {
+
+background:#D2691E;
+
+border-radius: 15px;
+
+text-align: center;
+
+}
+
+#nav {
+
+background:#7FFF00;
+
+width:650px;
+
+height:40px;
+
+margin-left: 45px;
+
+border-radius: 15px;
+
+text-align: center;
+
+}
+
+#main {
+
+background:#9c9;
+
+float:left;
+
+width:400px;
+
+height:400px;
+
+border-radius: 15px;
+
+border-style: solid;
+
+margin-left: 10px;
+
+margin-top: 30px;
+}
+
+#sidebar {
+
+background:#c9c;
+
+float:right;
+
+width:250px;
+
+height: 400px;
+
+border-radius: 15px;
+
+border-style: solid;
+
+margin-right: 10px;
+
+margin-top: 30px;
+
+}
+
+#footer {
+
+background:#cc9;
+
+clear:both;
+
+text-align: center;
+
+border-radius: 15px;
+
+margin-top: 450px;
+
+}
+
+#nav li {
+
+float:left;
+
+display:block;
+
+width:90px;
+
+}
