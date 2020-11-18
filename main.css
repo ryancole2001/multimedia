@@ -43,11 +43,13 @@ nav li a:hover {
 }
 /*Dark mode button position*/
 button{
-  margin-top: 2em;
+  position: absolute;
+  padding-top: 0.5em;
 }
 /* video greeting position*/
 video{
   margin-left: 5em;
+  margin-top: 2em;
 }
 /*Coursework position*/
 p{
