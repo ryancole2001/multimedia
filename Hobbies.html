@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <html>
-<title>My hobbies</title>
-<ul>
-	<link rel="stylesheet" href="NavigationBar.css">
-	<li><a href="Home.html">Home</a></li>
-	<li><a href="VideoGreeting.html">intro video</a></li>
-  	<li><a href="Hobbies.html">Hobbies</a></li>
-  	<li><a href="Coursework.html">Coursework</a></li>
-</ul>
-<h1>These are my hobbies!</h1>
-
+<head>
+	<title>My hobbies</title>
+	<link rel="stylesheet" href="main.css">
+</head>
 <body>
-	<ul>
-		<li>I enjoy playing football with my friends in the park</li>
-		<img src="football.jpg" alt="football" width="192" height="100">
-		<li>I play golf with my father and in competitions</li>
-		<img src="golf.jpg" alt="golf" width="200" height="87">
-		<li>Paddle tennis is enjoyable with friends</li>
-		<img src="Paddle.jpg" alt="Paddle" width="200" height="100">
-	</ul>		
+	<nav>
+		<ul class="nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="videogreeting.html">Video greeting</a></li>
+  			<li><a class="current" href="hobbies.html">Hobbies</a></li>
+  			<li><a href="coursework.html">Coursework</a></li>
+  			<li><a href="svganimation.html">Vector animation</a></li>
+		</ul>
+	</nav>
+	<button onclick="toggleDarkMode()">Dark mode(on/off)</button>
+	<script src="main.js"></script>
+		<footer>
+	</footer>
+<div id="album-with-captions">
+	<figure class="slider">
+		<figure>
+			<img src="Images/football.jpg" alt>
+			<figcaption>I enjoy playing football with my friends in the park</figcaption>
+		</figure>
+		<figure>
+			<img src="Images/golf.jpg" alt>
+			<figcaption>I play golf with my father and in competitions</figcaption>
+		</figure>
+		<figure>
+			<img src="Images/Paddle.jpg" alt>
+			<figcaption>Paddle tennis is enjoyable with friends</figcaption>
+		</figure>
+	</figure>
+</div>
 </body>
+
+</html>
