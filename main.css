@@ -90,7 +90,7 @@ figure.slider figure {
 }
 figure.slider img { width: 100%; height: auto; }
 figure.slider figure figcaption { 
-  position: absolute; bottom: 0;
+  position: absolute; top: 0;
   background: #0F1D18;
   color: white; width: 100%;
   font-size: 2rem; 
