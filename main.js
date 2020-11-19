@@ -5,7 +5,7 @@ function toggleDarkMode() {
    element.classList.toggle("dark-mode");
    console.log("Dark mode enables/disabled")
 }
-
+/*slideshow*/
 var slideIndex = 1;
 showDivs(slideIndex);
 
